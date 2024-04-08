@@ -15,7 +15,7 @@
  button.addEventListener("click",save);
 async function save(){
     let newpass = document.getElementById("new");
-    const response = await fetch("http://localhost:1234/password", {
+    const response = await fetch("https://rbacs-filesharing.onrender.com/password", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
